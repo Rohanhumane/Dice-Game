@@ -23,8 +23,6 @@ A simple multiplayer dice game where the first player to reach 20 points wins! T
 - CSS
 - JavaScript
 
-## 📂 Project Structure
-
 ## 📌 Future Enhancements
 
 - 🔢 Allow custom winning scores
