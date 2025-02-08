@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice-Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h2 class="center">Max Wins at 20</h2>
+    <button class="btn btn--new">🔄 New game</button>
+    <section class="player player--0 player--inactive">
+      <div class="start">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0">0</p>
+      </div>
+      <div class="current">
+        <p class="current-label">Current</p>
+        <p class="current-score" id="current--0">0</p>
+      </div>
+    </section>
+    <section class="player player--1 player--inactive">
+      <div class="start">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">0</p>
+      </div>
+      <div class="current">
+        <p class="current-label">Current</p>
+        <p class="current-score" id="current--1">0</p>
+      </div>
+    </section>
+    <section class="player player--2 player--inactive">
+      <div class="current">
+        <p class="current-label">Current</p>
+        <p class="current-score" id="current--2">0</p>
+      </div>
+      <div class="start">
+        <h2 class="name" id="name--2">Player 3</h2>
+        <p class="score" id="score--2">0</p>
+      </div>
+    </section>
+
+    <section class="player player--3 player--inactive">
+      <div class="current">
+        <p class="current-label">Current</p>
+        <p class="current-score" id="current--3">0</p>
+      </div>
+      <div class="start">
+        <h2 class="name" id="name--3">Player 4</h2>
+        <p class="score" id="score--3">0</p>
+      </div>
+    </section>
+
+    <img src="dice-5.png" alt="Playing dice" class="dice hidden" />
+    <button class="btn btn--roll btn--0 hidden">🎲 Roll dice</button>
+    <!-- <button class="btn btn--hold">📥 Hold</button> -->
+    <div class="winner hidden">
+      <button class="btn--close">&times</button>
+      <h1 class="winners">Congrulations Player 1 Wins</h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
